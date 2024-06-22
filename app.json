@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "ACMNG",
+    "slug": "final-year-project",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "googleServicesFile": "./path/to/google-services.json",
+      "package": "com.mayurs31.AiSenseVoiceAnalysisReactNativeApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6a6ff5a9-d0c5-4973-a92d-39d52ae66cd5"
+      }
+    },
+    "plugins": [
+      "expo-localization",
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth"
+    ],
+    "owner": "acmng"
+  }
+}
+
